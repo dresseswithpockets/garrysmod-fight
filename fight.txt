@@ -1,0 +1,57 @@
+"fight"
+{
+  "base"          "base"
+  "title"         "Fight!"
+  "maps"          "^fight_"
+  "category"      "pvp"
+  "menusystem"    "1"
+  "workshopid"    "15895"
+
+  "settings"
+  {
+    1
+    {
+      "name"      "fight_min_score_to_win"
+      "text"      "Minimum Score To Win"
+      "help"      "The minimum score necessary for a team to win"
+      "type"      "Numeric"
+      "default"   "5"
+    }
+
+    2
+    {
+      "name"      "fight_min_score_lead_to_win"
+      "text"      "Minimum Score Lead To win"
+      "help"      "The minimum lead a team must have in order to win. i.e A has 5 pts, B has 3 pts, A wins. If B has 4 pts, no the round goes on."
+      "type"      "Numeric"
+      "default"   "2"
+    }
+
+    3
+    {
+      "name"      "fight_round_time"
+      "text"      "Round Time"
+      "help"      "The total number in minutes that a round can last for, before granting a win by default or a sudden death."
+      "type"      "Numeric"
+      "default"   "7"
+    }
+
+    4
+    {
+      "name"      "fight_sudden_death_if_default"
+      "text"      "Use Sudden Death"
+      "help"      "If the round timer ends and a win will be granted by default, the round becomes sudden death and the first point earned grants a win."
+      "type"      "Numeric"
+      "default"   "1"
+    }
+
+    5
+    {
+      "name"      "fight_min_team_size"
+      "text"      "Min team size to play"
+      "help"      "The minimum number of players necessary for each team before a round can start"
+      "type"      "Numeric"
+      "default"   "1"
+    }
+  }
+}

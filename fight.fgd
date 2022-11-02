@@ -1,0 +1,1 @@
+@PointClass base(Weapon) studio("models/weapons/w_357.mdl") = weapon_fight_nailgun : "Shotgun" []
